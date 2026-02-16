@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Johnny Bois Seasons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui-layout">
+        <div id="sidebar">
+            <h2>LIVE STANDINGS</h2>
+            <div id="leaderboard">
+                <p class="gold">1. Johnny Boi (RAMS) - 7</p>
+                <p class="silver">2. Caleb Miguel (BILLS) - 3</p>
+                <p>3. Rookie (JETS) - 0</p>
+            </div>
+        </div>
+        <div id="game-container">
+            <h1>JOHNNY BOIS SEASONS</h1>
+            <div id="hud">Team: <span id="team-name">RAMS</span> | Score: <span id="score">0</span></div>
+            <canvas id="gameCanvas" width="800" height="400"></canvas>
+            <div id="play-menu">
+                <button onclick="setPlay('hailMary')">HAIL MARY</button>
+                <button onclick="setPlay('slant')">SLANT</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
